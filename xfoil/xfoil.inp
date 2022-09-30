@@ -1,0 +1,26 @@
+load naca4415.txt
+oper
+vpar
+n
+9
+
+oper
+iter
+300
+
+
+
+oper
+re 0
+mach 0.649874
+pacc
+
+
+c 0.7
+dump xfoil_c00.700_dump.dat
+cpwr xfoil_c00.700_cpwr.dat
+pwrt
+xfoil_pwrt.dat
+plis
+
+quit
